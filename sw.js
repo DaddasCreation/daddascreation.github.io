@@ -1,5 +1,5 @@
-const SHELL = 'shortlist-shell-e648a1437165';
-const ASSETS = ["/assets/index-Ct8JxAOd.js","/assets/index-DMGC5d7e.css","/icons/icon192.png","/icons/icon512.png","/index.html","/manifest.webmanifest"];
+const SHELL = 'shortlist-shell-53454df083d8';
+const ASSETS = ["/assets/index-DMGC5d7e.css","/assets/index-RATt4dw1.js","/icons/icon192.png","/icons/icon512.png","/index.html","/manifest.webmanifest"];
 const SHARES = 'shortlist-shares';
 self.addEventListener('install', event => {event.waitUntil(caches.open(SHELL).then(cache=>cache.addAll(ASSETS)));});
 // Do not skipWaiting: an in-progress capture must keep its current app version.
